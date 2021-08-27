@@ -1,0 +1,118 @@
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 1px;
+    background-color: #F7F1F0;
+    padding: 1px;
+    width:400px;
+    height:400px
+  }
+  
+.img2 {
+    width: 380px;
+    height: 161px;
+}
+.imgblack {
+    width: 180px;
+    height: 235px;
+}
+/* .grid-design{
+    display: block;
+    background-color:rgb(26, 24, 24)
+} */
+  .style3 {
+      display: block;
+  }
+  .grid-container2 > div {
+    background-color: white;
+    text-align: center;
+    padding: 1px 0;
+    font-size: 15px;
+    padding-left: 20px;
+  }
+  
+  .box1 {
+    grid-row-start: 1;
+    grid-row-end: 8;
+    grid-column-start:1 ;
+    grid-column-end:8;
+  }
+  
+  .box2{
+      grid-row-start:8;
+      grid-row-end:15;
+      grid-column-start:1;
+      grid-column-end:6;
+  }
+   .box3{
+    grid-row-start:8;
+    grid-row-end:14;
+    grid-column-start:5;
+    grid-column-end:8;
+}
+    .box4{
+    grid-row-start:9;
+    grid-row-end:10;
+    grid-column-start:5;
+    grid-column-end:8 ;
+}
+    .box5{
+    grid-row-start:10;
+    grid-row-end:11;
+    grid-column-start:6;
+    grid-column-end:7;
+}
+    .box6{
+    grid-row-start:10;
+    grid-row-end:11;
+    grid-column-start:7;
+    grid-column-end:8;
+}   
+    .box7{
+    grid-row-start:11;
+    grid-row-end:12;
+    grid-column-start:6;
+    grid-column-end:7;
+}
+    .box8{
+    grid-row-start:11;
+    grid-row-end:12;
+    grid-column-start:7;
+    grid-column-end:8;
+}
+    .box9{
+    grid-row-start:12;
+    grid-row-end:13;
+    grid-column-start:6;
+    grid-column-end:7;
+}
+    .box10{
+    grid-row-start:12;
+    grid-row-end:13;
+    grid-column-start:7;
+    grid-column-end:8;
+}
+    .box11{
+    grid-row-start:13;
+    grid-row-end:14;
+    grid-column-start:6;
+    grid-column-end:7;
+}
+    .box12{ 
+    grid-row-start:13;
+    grid-row-end:14;
+    grid-column-start:7;
+    grid-column-end:8;
+}
+    .box13{ 
+    grid-row-start:14;
+    grid-row-end:15;
+    grid-column-start:6;
+    grid-column-end:7;
+}
+    .box14{ 
+    grid-row-start:14;
+    grid-row-end:15;
+    grid-column-start:7;
+    grid-column-end:8;
+}
